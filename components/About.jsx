@@ -13,20 +13,30 @@ const About = () => {
             &#47;&#47; I am not your normal developer
           </p>
           <p className="py-2 text-gray-600">
-            I have spent the last 12 years in the fire service working as a
-            professional firefighter & paramedic. I have always had a knack for
-            technology and working with computers. In 2009 I started working
-            with HTML & CSS to make some minor edits on a small business website
-            that I was operating. What I thought was just a few small edits
-            turned into a love for programming.
+            I am a passionate web developer with over two and a half years of
+            experience in the field. My journey began with HTML and CSS, where I
+            discovered my love for creating visually appealing and functional
+            websites. As I delved deeper into web development, I eagerly
+            expanded my skill set and embraced new technologies. I have
+            dedicated myself to mastering languages such as React, Node.js,
+            Tailwind CSS, Next.js, MongoDB, and JavaScript. Through continuous
+            learning and hands-on projects, I have gained a strong foundation in
+            these technologies, enabling me to build dynamic and interactive web
+            applications.
           </p>
           <p className="py-2 text-gray-600">
-            Fascinated with how intricate programming can be I was quickly drawn
-            to learn more. I started learning javascript and was ever more
-            enthused with making websites interactive. I then started
-            freelancing for e-commerce companies on the shopify platform. I am
-            now spending my time building projects with React Js, Firebase, and
-            learning new technologies.
+            Over the past year, I have embarked on a freelancing career, working
+            on a diverse range of projects. This experience has allowed me to
+            apply my knowledge and expertise to solve real-world challenges.
+            From designing captivating user interfaces to implementing seamless
+            backend functionality, I take pride in delivering high-quality
+            websites that meet my clients&rsquo; unique needs. Through my
+            freelance work, I have developed a keen eye for detail, effective
+            project management skills, and the ability to collaborate with
+            clients to bring their visions to life. I am driven by the
+            satisfaction of creating impactful digital experiences and am
+            constantly seeking new opportunities to push the boundaries of web
+            development.
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer hover:text-teal-600 hover:scale-95">
             <Link href="/#project">Check out some of my latest projects</Link>
