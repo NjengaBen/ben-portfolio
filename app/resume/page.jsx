@@ -22,7 +22,7 @@ const resume = () => {
           <div className="hidden sm:block">
             <p>
               Proven Leadership <span className="px-1">|</span> Web Development{" "}
-              <span className="px-1">|</span> Complex Problem Solving
+              <span className="px-1">|</span> Problem Solving
             </p>
           </div>
           <div className="block sm:hidden">
@@ -54,18 +54,14 @@ const resume = () => {
             <span className="px-2">|</span>Javascript
             <span className="px-2">|</span>React
             <span className="px-2">|</span>Next JS
-            <span className="px-2">|</span>SQL
-            <span className="px-2">|</span>NoSQL
-            <span className="px-2">|</span>Redux
             <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span> Firebase
             <span className="px-2">|</span> RESTAPI
           </p>
-          <p className="py-2">
+          {/* <p className="py-2">
             <span className="font-bold">Amazon Web Services</span>
             <span className="px-2">|</span>Amazon Web Services Cloud
             Practitioner
-          </p>
+          </p> */}
         </div>
 
         <h5 className="text-center underline text-[18px] py-4">
@@ -74,11 +70,11 @@ const resume = () => {
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">INFINITE TECH</span>
-            <span className="px-2">|</span>Dallas, TX
+            <span className="font-bold italic">FREELANCER</span>
+            <span className="px-2">|</span>Fiverr, UpWork
           </p>
           <p className="py-1 italic">
-            Front End Web Developer & Web Master (2013 - Current)
+            Front End Web Developer (2021 - Current)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
@@ -93,35 +89,6 @@ const resume = () => {
               Worked directly with a diverse client base to understand and
               implement multiple technologies and programs.
             </li>
-            <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
-            </li>
-          </ul>
-        </div>
-
-        {/* Personal Experience */}
-        <div className="py-6">
-          <p className="italic">
-            <span className="font-bold italic">
-              Teaching & Mentoring Web Development
-            </span>
-            <span className="px-2">|</span>Dallas, TX
-          </p>
-          <p className="py-1 italic">
-            Code Commerce - Youtube Channel (2021 - Current)
-          </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
-            </li>
-            <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
-            </li>
           </ul>
         </div>
 
@@ -132,37 +99,21 @@ const resume = () => {
 
         {/* Experience */}
         <div className="py-6">
-          <p className="italic">
-            <span className="font-bold">CITY OF SHERMAN, TX</span>
-            <span className="px-2">|</span>Sherman, TX
-          </p>
-          <p className="py-1 italic">Paramedic / Firefighter (2010 – 2019)</p>
+          <p className="py-1 italic">Transcriber (2020 – 2022)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
+              Listened to audios and videos and converted them into written
+              text. I worked with various types of audio and video contents to
+              prepare scripts for digitiation and/or preparation of work
+              documents.
             </li>
             <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
+              Oversaw quality control process to maintain the credibility and
+              quality of the scripts and removing errors.
             </li>
             <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
+              Juggled as a team leader to ensure efficient and smooth production
+              of the transcripts including making sure daily quotas are met.
             </li>
           </ul>
         </div>
