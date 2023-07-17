@@ -1,7 +1,7 @@
-import propertyImg from "/public/assets/Projects/property.jpg";
-import cryptoImg from "/public/assets/Projects/crypto.jpg";
-import twitchImg from "/public/assets/Projects/twitch.jpg";
-import netflixImg from "/public/assets/Projects/netflix.jpg";
+import frontendImg from "/public/assets/Projects/frontend.png";
+import cardImg from "/public/assets/Projects/card.png";
+import reactMaterialDashboardImg from "/public/assets/Projects/react-material-ui-dashboard.jpg";
+import restaurantMenuImg from "/public/assets/Projects/restaurant-menu.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Project = () => {
@@ -14,23 +14,23 @@ const Project = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
-            backgroundImg={propertyImg}
-            projectUrl="/property"
+            title="Landing Page"
+            backgroundImg={frontendImg}
+            projectUrl="/frontend"
           />
           <ProjectItem
-            title="Crypto App"
-            backgroundImg={cryptoImg}
+            title="Card UI"
+            backgroundImg={cardImg}
             projectUrl="/crypto"
           />
           <ProjectItem
-            title="Twitch UI"
-            backgroundImg={twitchImg}
+            title="Dashboard UI"
+            backgroundImg={reactMaterialDashboardImg}
             projectUrl="/twitch"
           />
           <ProjectItem
-            title="Netflix App"
-            backgroundImg={netflixImg}
+            title="Restaurant App"
+            backgroundImg={restaurantMenuImg}
             projectUrl="/netflix"
           />
         </div>

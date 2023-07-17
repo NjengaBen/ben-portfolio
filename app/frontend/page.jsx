@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import propertyImg from "/public/assets/Projects/property.jpg";
+import frontendImg from "/public/assets/Projects/frontend.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const property = () => {
+const frontend = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -11,13 +11,13 @@ const property = () => {
           className="absolute z-1"
           layout="fill"
           style={{ objectFit: "cover" }}
-          src={propertyImg}
+          src={frontendImg}
           alt="/"
         />
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10">
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Property Finder</h2>
-            <h3>React Js / Tailwind / Firebase</h3>
+            <h2 className="py-2">FrontEnd UI</h2>
+            <h3>React Js / Javascript / Bootstrap</h3>
           </div>
         </div>
       </div>
@@ -26,14 +26,11 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React Js and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup & signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with zillow API.
+            This app was built using React Js, bootstrap css and is hosted on
+            Netlfify. It is a simple landing page demonstrating implemention of
+            bootstrap with react. The app does not have any functionalities
+            apart from the visual UI. It is a simple prototype testing on my
+            skills and abilities to develop a gooud UI and layout.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           <button className="px-8 py-2 mt-4">Code</button>
@@ -49,16 +46,7 @@ const property = () => {
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Google API
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Zillow API
+                <RiRadioButtonFill className="pr-1" /> Bootstrap
               </p>
             </div>
           </div>
@@ -71,4 +59,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default frontend;
