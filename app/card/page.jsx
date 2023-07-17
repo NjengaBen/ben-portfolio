@@ -16,7 +16,7 @@ const card = () => {
         />
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10">
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Card App</h2>
+            <h2 className="py-2">Interactive Card Form</h2>
             <h3>HTML / CSS / Javascript</h3>
           </div>
         </div>
@@ -26,12 +26,17 @@ const card = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This card was my first build using html, css and javascript. I was
-            still learning on translating designs into code and I learned a lot
-            from this app. It boosted my confidence in interpreting design
-            layouts into code and helped me accelerate my learning process.
-            HTML, CSS and Javascript lays the foundation of developing great UI
-            designs and I&rsquo;m glad my first design turned out great.
+            The interactive card form is a user-friendly web component developed
+            using HTML, CSS, and JavaScript. It allows users to input and
+            validate credit card information in a visually engaging manner. The
+            HTML structure defines the form elements, while CSS is applied to
+            style and enhance the visual presentation of the form. JavaScript is
+            utilized to handle user interactions, perform validation on the card
+            details, and provide real-time feedback to ensure data accuracy. The
+            combination of HTML, CSS, and JavaScript enables the creation of an
+            interactive and responsive card form that enhances the user
+            experience and simplifies the process of collecting and validating
+            credit card information.
           </p>
           <a
             href="https://github.com/NjengaBen/InteractiveCardForm"

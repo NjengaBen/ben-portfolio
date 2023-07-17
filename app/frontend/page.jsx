@@ -28,9 +28,16 @@ const frontend = () => {
           <p>
             This app was built using React Js, bootstrap css and is hosted on
             Netlfify. It is a simple landing page demonstrating implemention of
-            bootstrap with react. The app does not have any functionalities
-            apart from the visual UI. It is a simple prototype testing on my
-            skills and abilities to develop a gooud UI and layout.
+            Bootstrap with React. It serves as an effective introduction to a
+            product, service, or brand, enticing visitors with a visually
+            appealing design and compelling content. Leveraging the power of
+            React.js, the landing page offers seamless interactivity and dynamic
+            updates, enhancing user engagement. By utilizing the extensive
+            library of Bootstrap components, the page achieves a professional
+            and modern look, with consistent styling and responsive layout
+            across various devices. With React.js and Bootstrap, the landing
+            page combines functionality and aesthetics to deliver an impactful
+            first impression to its audience.
           </p>
           <a
             href="https://github.com/NjengaBen/frontendbootstrap"

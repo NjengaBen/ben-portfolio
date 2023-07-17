@@ -27,10 +27,16 @@ const restaurant = () => {
           <h2>Overview</h2>
           <p>
             This appplication was built using React and is styled with Tailwind
-            CSS. It is bundled together using Vite which is also another
-            powerful tool for building fast and optimized web applications. A
-            few features to note with this project are lazy loading of modules,
-            hot module replacement, tree-shaking and code splitting.
+            CSS. It offers a seamless and intuitive experience for customers to
+            explore menus, place orders, make reservations, and more. Powered by
+            React.js, the app provides dynamic and interactive user interfaces,
+            ensuring smooth navigation and real-time updates. The utilization of
+            Tailwind CSS allows for rapid development and easy customization,
+            resulting in a visually appealing and responsive design. With Vite
+            as the build tool, the app achieves fast and efficient bundling and
+            development, optimizing performance and reducing loading times.
+            Combined, React.js, Tailwind CSS, and Vite create a powerful
+            foundation for building a robust and user-friendly restaurant app.
           </p>
           <a
             href="https://github.com/NjengaBen/besteats"

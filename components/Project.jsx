@@ -19,7 +19,7 @@ const Project = () => {
             projectUrl="/frontend"
           />
           <ProjectItem
-            title="Card UI"
+            title="Interactive Card Form"
             backgroundImg={cardImg}
             projectUrl="/card"
           />

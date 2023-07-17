@@ -28,7 +28,15 @@ const dashboard = () => {
           <p>
             I built this application in React JS and is hosted on Netlify. This
             UI uses material UI and Tailwind CSS to add styling and custom
-            themes.
+            themes. It provides a comprehensive overview of key data and
+            metrics, allowing users to visualize and analyze information in an
+            intuitive manner. With React.js, the dashboard offers a highly
+            interactive and responsive experience, while Material UI ensures a
+            sleek and consistent design through its pre-built components,
+            styling options, and theming capabilities. The combination of
+            React.js and Material UI empowers the dashboard UI with powerful
+            features, efficient development workflows, and a visually appealing
+            presentation of data.
           </p>
           <a
             href="https://github.com/NjengaBen/ReactMaterialUITemplate"
