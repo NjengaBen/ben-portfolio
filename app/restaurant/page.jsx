@@ -16,7 +16,7 @@ const restaurant = () => {
         />
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/80 z-10">
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Twitch UI</h2>
+            <h2 className="py-2">Restaurant App</h2>
             <h3>React Js / Tailwind / Vite</h3>
           </div>
         </div>
@@ -26,16 +26,26 @@ const restaurant = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This appplication was built using NEXT.JS and is styled with
-            Tailwind CSS. The application is hosted statically using Vercel.
-            This is a mobile responsive recreation of Twitch.tv and features
-            Next/Auth.js for authentication. Users may choose to be
-            authenticated with either a Github account or a Google account. A
-            few features to note with this project are lazy loading images using
-            the Image component, built in routing, and Next/Auth Context.
+            This appplication was built using React and is styled with Tailwind
+            CSS. It is bundled together using Vite which is also another
+            powerful tool for building fast and optimized web applications. A
+            few features to note with this project are lazy loading of modules,
+            hot module replacement, tree-shaking and code splitting.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a
+            href="https://github.com/NjengaBen/besteats"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+          <a
+            href="https://glistening-babka-6bd8ad.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4">Code</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

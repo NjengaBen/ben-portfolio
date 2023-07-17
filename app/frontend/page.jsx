@@ -32,8 +32,20 @@ const frontend = () => {
             apart from the visual UI. It is a simple prototype testing on my
             skills and abilities to develop a gooud UI and layout.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a
+            href="https://github.com/NjengaBen/frontendbootstrap"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+          <a
+            href="https://celebrated-blini-ebb9f6.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4">Code</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

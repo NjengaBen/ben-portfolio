@@ -1,7 +1,7 @@
 import frontendImg from "/public/assets/Projects/frontend.png";
 import cardImg from "/public/assets/Projects/card.png";
-import reactMaterialDashboardImg from "/public/assets/Projects/react-material-ui-dashboard.jpg";
-import restaurantMenuImg from "/public/assets/Projects/restaurant-menu.jpg";
+import reactMaterialDashboardImg from "/public/assets/Projects/react-material-ui-dashboard.png";
+import restaurantMenuImg from "/public/assets/Projects/restaurant-menu.png";
 import ProjectItem from "./ProjectItem";
 
 const Project = () => {
@@ -21,17 +21,17 @@ const Project = () => {
           <ProjectItem
             title="Card UI"
             backgroundImg={cardImg}
-            projectUrl="/crypto"
+            projectUrl="/card"
           />
           <ProjectItem
             title="Dashboard UI"
             backgroundImg={reactMaterialDashboardImg}
-            projectUrl="/twitch"
+            projectUrl="/dashboard"
           />
           <ProjectItem
             title="Restaurant App"
             backgroundImg={restaurantMenuImg}
-            projectUrl="/netflix"
+            projectUrl="/restaurant"
           />
         </div>
       </div>
